@@ -1,6 +1,5 @@
 let display=document.getElementById('input');
 let buttons=document.querySelectorAll('button');
-let operator=document.getElementsByClassName('op');
 let string="";
 let arr=Array.from(buttons);
 let arr2=Array.from(operator);
