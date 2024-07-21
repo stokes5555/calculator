@@ -2,7 +2,6 @@ let display=document.getElementById('input');
 let buttons=document.querySelectorAll('button');
 let string="";
 let arr=Array.from(buttons);
-let arr2=Array.from(operator);
 arr.forEach((btn)=>{
     btn.addEventListener('click',(event)=>{
         if(event.target.innerHTML=="DEL"){
